@@ -4,6 +4,9 @@ import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import Rightbar from "./components/Rightbar";
 import Centerbar from "./components/Centerbar";
+import AddPosts from "./components/AddPosts";
+
+// import Modals from "./components/MyModal"
 
 function App() {
   return (
@@ -16,6 +19,12 @@ function App() {
           <Centerbar />
           <Rightbar />
         </Stack>
+        <AddPosts />
+
+
+        {/* <Modals /> */}
+
+
       </div>
     </>
   )
